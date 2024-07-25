@@ -7,7 +7,7 @@ screen_height = 500
 screen = pygame.display.set_mode(size=(screen_width, screen_height))
 clock = pygame.time.Clock()
 running = True
-test_size = 5 # in pixels
+test_size = 10 # in pixels
 rows = int(screen_width // test_size)
 cols = int(screen_height // test_size)
 updateRate = 0.05
